@@ -1,0 +1,79 @@
+*,*::after,*::before {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    /* background-color: rgb(51, 84, 84); */
+    background-color: #ECF2FF;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen {
+    margin: 0 auto;
+    width: 224px;
+    height: 54px;
+    background-color: rgb( 176, 205, 176);
+    font-size: 2.5rem;
+    text-align: end;
+    padding: 4px;
+}
+
+.calculator {
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 83%);
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.427);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.buttons {
+    width: 232px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    font-size: 2.5rem;
+    margin: 4px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: hsl(0, 1%, 51%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.305);
+}
+
+button:hover,
+button:focus {
+    background-color: rgb(111, 110, 110);
+}
+
+button:active {
+    background-color: rgb(232, 232, 232);
+}
+
+#equals {
+    background-color: rgb(218, 22, 22);
+}
+
+#equals:hover,
+#equals:focus {
+    background-color: rgb(198, 1, 1);
+}
+
+#clear {
+    width: 100%;
+    background-color: rgb(252, 201, 27);
+    font-size: 1.197rem;
+    border-radius: 1.5rem;
+}
+
+#clear:hover,
+#clear:focus{
+    background-color: rgb(252, 215, 27);
+}
